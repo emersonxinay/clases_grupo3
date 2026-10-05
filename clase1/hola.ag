@@ -1,0 +1,10 @@
+imprimir("hola pedrito mundo")
+# comentario en águila
+# variables en águila
+nombre = "emerson"
+apellido = " "
+
+imprimir(nombre)
+imprimir(apellido)
+# tipo de dato
+imprimir(tipo(nombre))

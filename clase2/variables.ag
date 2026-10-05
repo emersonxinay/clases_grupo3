@@ -1,0 +1,56 @@
+
+# imprimir en águila 
+imprimir("Hola mundo")
+imprimir("hola mundo", "chao mundo")
+
+# datos de entrada 
+# declarando variables 
+nombre = "Emerson" # texto - str
+precio = 20.5 # decimal - float
+estudias = verdadero # logico - bool
+edad = 20 # entero - int 
+
+frutas = ["motor y motivo", [], 20, 20.5, "negrita linda", {}]
+paises = {"peru":"lima", "chile":"santiago"}
+
+imprimir(tipo(frutas))
+imprimir(tipo(paises))
+# procesando los datos 
+multi = precio * edad
+
+# salida de datos 
+imprimir(multi)
+
+# entradas dinamicas 
+dato1 = entero(ingresar("Ingrese un número: "))
+sumar = dato1 + 20
+imprimir(sumar)
+
+# operaciones matematicas 
+
+imprimir("Operaciones matematicas ")
+
+a = decimal(ingresar("Ingrese primer número: "))
+b = decimal(ingresar("Ingrese segundo número: "))
+
+
+sumar = a + b
+restar = a - b
+multi = a * b
+division_exacta = a/b 
+division_entera = a//b 
+potencia = a**b
+resto_modulo = a % b 
+raiz_cuadrada = a ** 0.5
+apellido == "espinoza"
+GRAVEDAD = 9.8
+# imprimir con interpolación 
+imprimir(a"la suma es: {sumar}")
+
+
+
+
+
+
+
+

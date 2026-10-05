@@ -1,0 +1,26 @@
+
+# ciclos con águila 
+# nombre = "emerson"
+# mientras verdadero{
+#     imprimir(a"hackeado por {nombre} ")
+# }
+
+# inicio = 1 
+# mientras inicio < 5{
+#     imprimir(inicio)
+#     # inicio = inicio + 1
+#     inicio += 1
+# }
+
+# imprimir(inicio)
+#
+# suma = 0
+# inicio = 1
+# mientras inicio < 6 {
+#     suma = suma + inicio
+#     imprimir(a"la {inicio } suma es: {suma} ") 
+#     inicio = inicio + 1
+#     imprimir(a"el  contador es: {inicio} ")
+# }
+# imprimir(suma)
+# imprimir(inicio)

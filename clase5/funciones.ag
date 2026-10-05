@@ -1,0 +1,10 @@
+
+funcion saludar(nombre){
+    imprimir(a"hola mi estimado {nombre}")
+}
+
+# invocando a las funciones 
+dato = ingresar("ingrese su nombre: ")
+saludar("Emerson")
+saludar("Juan")
+saludar(dato)

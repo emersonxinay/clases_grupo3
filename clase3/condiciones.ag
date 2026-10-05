@@ -1,0 +1,47 @@
+# # condiciones 
+# edad = entero(ingresar("Ingrese edad: "))
+
+# si edad >= 18 {
+#     imprimir("Eres mayor")
+# } sino {
+#     imprimir("Eres menor")
+# }
+
+# edad = 25
+# tiene_id = verdadero
+# es_vip = falso
+
+# si (edad >= 18 y es_vip) o no(tiene_id) {
+#     imprimir("PUEDES ENTRAR")
+# } sino {
+#     imprimir("ACCESO DENEGADO")
+# }
+# 
+
+# nota = 5
+# si nota > 0 {
+#     imprimir("Positivo")
+# } sino si nota < 0 {
+#     imprimir("negativo")
+# } sino si nota == 0 {
+#     imprimir("es cero")
+# } sino {
+#     imprimir("dato invalido")
+# }
+# 
+
+# llueve = falso
+# si no llueve {
+#     imprimir("no llueve")
+# }
+# 
+# 
+
+edad = entero(leer("Edad:"))
+tiene_permiso = verdadero
+
+si edad >= 21 o (edad >= 18 y tiene_permiso) {
+    imprimir("PUEDES PASAR")
+} sino {
+    imprimir("DENEGADO")
+}

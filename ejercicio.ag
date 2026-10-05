@@ -1,0 +1,40 @@
+cantidad_productos= entero(ingresar("¿Cuántos productos desea ingresar?: "))
+total = 0
+total_unidades = 0
+para i en rango(cantidad_productos){
+    imprimir(a"Producto {i+1}")
+    nombre = ingresar("Nombre producto: ")
+    cantidad = entero(ingresar("Cantidad comprada: "))
+    mientras cantidad <=0{
+        imprimir("debe ser mayor a cero")
+        cantidad = entero(ingresar("cantidad comprada: "))
+
+    }
+    precio = decimal(ingresar("Precio unitario: "))
+    mientras precio <=0 {
+        imprimir("debe ser mayor que cero")
+        precio = decimal(ingresar("precio unitario"))
+    }
+    subtotal = cantidad * precio 
+    total = total + subtotal
+    total_unidades = total_unidades + cantidad
+    imprimir(a"subtotal de {nombre}: s/ {subtotal} ")
+
+}
+
+# calcular descuento
+si total > 500{
+    descuento = total * 0.5 
+
+} sino si total >= 250 {
+    descuento = total*0.08
+} sino {
+    descuento = 0 
+}
+
+total_final = total - descuento
+
+imprimir(a"total inicial: {total} ")
+imprimir(a"Descuento aplicado: {descuento} ")
+imprimir(a"total final: {total_final}" )
+imprimir(a"cantidad total unidades: {total_unidades} ")
