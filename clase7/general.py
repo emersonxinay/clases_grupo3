@@ -185,6 +185,7 @@ while True:
 
     else:
         print("Opción inválida.")
+        print("Vueleve a ingresar")
 
 
 # flask 
